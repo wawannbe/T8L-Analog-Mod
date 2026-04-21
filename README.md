@@ -23,3 +23,20 @@ Base idea ->> Adjustments: Redesign/changes, updates (3 weeks)
 Adjustments ->> Second version: Tests, assembly, production (2 weeks)
 Second version -->> Base idea: Feedback (~1 week)
 ```
+
+## Wiring diagram
+*This is the current version's wiring diagram.*
+
+```mermaid
+graph LR
+A[2x 21700]
+B[T8L Motherboard]
+C[Switch]
+D[Screen]
+E[Analog VRX]
+F[Analog to AV converter]
+
+A --> B
+A --> C -- 7v to 12v booster --> D
+E --> F --> D
+```
