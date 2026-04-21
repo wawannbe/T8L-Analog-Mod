@@ -40,3 +40,13 @@ A --> B
 A --> C -- 7v to 12v booster --> D
 E --> F --> D
 ```
+
+## Bill Of Material (BOM)
+*The current BOM for this build is:*
+- Radiomaster T8L
+- 4/3" AV in display
+- 12v booster
+- 2x 18650 or 2x 21700 battery
+- Switch to turn on/off the screen
+- URUAV Analog adapter v2 (v3 might work)
+- Analog VRX of your choice
