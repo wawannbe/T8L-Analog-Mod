@@ -31,14 +31,13 @@ Second version -->> Base idea: Feedback (~1 week)
 graph LR
 A[2x 21700]
 B[T8L Motherboard]
-C[Switch]
 D[Screen]
 E[Analog VRX]
-F[Analog to AV converter]
+F[Uruav Analog to AV converter]
 
 A --> B
-A --> C -- 7v to 12v booster --> D
-E --> F --> D
+A --> F -- 7v to 12v booster --> D
+E --> F -- Analog video feed --> D
 ```
 
 ## Bill Of Material (BOM)
