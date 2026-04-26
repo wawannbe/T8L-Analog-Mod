@@ -1,4 +1,3 @@
-
 # Radiomaster T8L Analog Mod
 
 ## The goal
@@ -33,11 +32,15 @@ A[2x 21700]
 B[T8L Motherboard]
 D[Screen]
 E[Analog VRX]
-F[Uruav Analog to AV converter]
+F[5v BEC]
+G[12v booster]
+H[Switch]
 
 A --> B
-A --> F -- 7v to 12v booster --> D
-E --> F -- Analog video feed --> D
+A --> F
+A --> G
+G --> H --> D
+F --> H --> E
 ```
 
 ## Bill Of Material (BOM)
@@ -47,5 +50,5 @@ E --> F -- Analog video feed --> D
 - 12v booster
 - 2x 18650 or 2x 21700 battery
 - Switch to turn on/off the screen
-- URUAV Analog adapter v2 (v3 might work)
+- 5v BEC
 - Analog VRX of your choice
