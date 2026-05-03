@@ -54,6 +54,6 @@ F --> H --> E
 - 4/3" AV in display
 - 12v booster
 - 2x 18650 or 2x 21700 battery
-- Switch to turn on/off the screen
+- Switch to turn on/off the screen *Currently not set in the wiring diagram*
 - 5v BEC
 - Analog VRX of your choice
