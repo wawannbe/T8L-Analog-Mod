@@ -24,7 +24,8 @@ Second version -->> Base idea: Feedback (~1 week)
 ```
 
 ## Wiring diagram
-*This is the current version's wiring diagram.*
+
+### Simplified version
 
 ```mermaid
 graph LR
@@ -37,11 +38,15 @@ G[12v booster]
 H[Switch]
 
 A --> B
-A --> F
+G --> F
 A --> G
 G --> H --> D
 F --> H --> E
 ```
+
+### Detailed version
+
+![wiring diagram](./Resources/wiring%20diagram.png){width=700}
 
 ## Bill Of Material (BOM)
 *The current BOM for this build is:*
