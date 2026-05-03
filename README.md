@@ -46,8 +46,7 @@ F --> H --> E
 
 ### Detailed version
 
-![wiring diagram](./Resources/wiring%20diagram.png){width=700}
-
+![wiring diagram](./Resources/wiring%20diagram.png)
 
 ## Bill Of Material (BOM)
 *The current BOM for this build is:*
